@@ -5,4 +5,5 @@
 - Step 2:
 - Step 3: 
 - Step 4: Check if the file is a TXT file
+- Step 5: Check if the file exists
 
