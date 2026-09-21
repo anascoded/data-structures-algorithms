@@ -15,7 +15,6 @@ Each assignment is organized in its own Git branch. The `main` branch contains t
 | `assignment-5` | Assignment 5 |
 | `assignment-6` | Assignment 6 |
 | `assignment-7` | Assignment 7 |
-| -------------- | ------------ |
 
 > The branch list will be updated as new assignments are completed.
 
