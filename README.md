@@ -1,5 +1,6 @@
 # Coding Assignment 1
 
+
 ## Introduction
 
 
@@ -25,5 +26,6 @@
 - Step 5: If the file type is correct, the program checks whether the file actually exists. If not, it prints **"File not found."**
   
 - Step 6: If the file exists and is a **.txt** file, the program opens it, reads the file one line at a time, and prints it. We use ***strip()*** to remove the newline character and extra spaces from the beginning and end of the line.
+
 
 
