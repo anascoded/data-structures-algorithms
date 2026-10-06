@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains solutions for CS526 Homework Assignment 2, focusing on fundamental data structures and algorithmic recursion in Python. The assignment explores the advantages of linked list optimizations, the implementation of custom singly and doubly linked list data structures with robust driver parsers, dynamic recursive problem solving, and error-tolerant stream processing. The provided Python modules implement a complete Singly Linked List with head/tail references, a recursive climbing stairs sequence and path visualizer, and a Sorted Doubly Linked List supporting advanced statistical operations and early-stopping recursive traversals.
+This repository contains solutions for CS526 Homework Assignment 2. The assignment explores the advantages of linked list optimizations, the implementation of custom singly and doubly linked list data structures with robust driver parsers, dynamic recursive problem solving, and error-tolerant stream processing. The provided Python modules implement a complete Singly Linked List with head/tail references, a recursive climbing stairs sequence and path visualizer, and a Sorted Doubly Linked List supporting advanced statistical operations and early-stopping recursive traversals.
 
 ---
 
