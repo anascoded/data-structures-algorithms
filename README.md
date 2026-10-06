@@ -36,10 +36,6 @@ The `SortedDoublyLinkedList` maintains elements in ascending order by performing
 
 ## How to Run
 
-### Problem 1
-
-A tail pointer is usually used to maintain efficient access to the end of the list, simplifying append operations and ensuring proper list structure.
-
 ### Problem 2: Singly Linked List
 
 Run the driver against test input files using standard input redirection:
