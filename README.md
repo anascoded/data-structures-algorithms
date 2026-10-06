@@ -1,4 +1,4 @@
-# CS526 Homework Assignment 2
+# Coding Assignment 2
 
 ## Introduction
 
