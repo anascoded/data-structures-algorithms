@@ -1,0 +1,26 @@
+(base) anas@Anas-MacBook-Pro-2 Homework2 % python3 problem2_driver.py < problem2Resources/problem2_basic.txt 
+Final list: 12 -> 5 -> 2 -> 7
+(base) anas@Anas-MacBook-Pro-2 Homework2 % python3 problem2_driver.py < problem2Resources/problem2_create.txt
+1 -> 12 -> 99 -> 3 -> 5
+Final list: 1 -> 12 -> 99 -> 3 -> 5
+(base) anas@Anas-MacBook-Pro-2 Homework2 % python3 problem2_driver.py < problem2Resources/problem2_delete.txt
+delete at (0) = 1
+line 12): nothing found, nothing deleted
+Final list: 12 -> 3 -> 5
+(base) anas@Anas-MacBook-Pro-2 Homework2 % python3 problem2_driver.py < problem2Resources/problem2_errors.txt
+line 8: Index out of range
+line 9: index must be a whole number, got insert 'x'
+line 10: expected 'update <index> <value>', got update 'update 1'
+line 11: unknown directive 'remove'
+Final list: 12 -> 3 -> 5
+(base) anas@Anas-MacBook-Pro-2 Homework2 % python3 problem2_driver.py < problem2Resources/problem2_read.txt  
+get (2) = 99
+find 5 = 4
+find 42 = -1
+len = 5
+Final list: 1 -> 12 -> 99 -> 3 -> 5
+(base) anas@Anas-MacBook-Pro-2 Homework2 % python3 problem2_driver.py < problem2Resources/problem2_update.txt
+1 -> 12 -> 99 -> 3 -> 5
+1 -> 12 -> 100 -> 3 -> 5
+Final list: 1 -> 12 -> 100 -> 3 -> 5
+(base) anas@Anas-MacBook-Pro-2 Homework2 % 
