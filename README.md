@@ -11,7 +11,7 @@ This repository contains solutions for CS526 Homework Assignment 3.
 
 ## Algorithm
 
-### Problem 1: Tail Pointer Advantage
+### Problem 1: Palindrome
 
 A tail pointer maintains a direct reference to the final node in a linked list structure. In a standard singly linked list without a tail reference, appending a new node requires traversing all $n$ nodes from the head to reach the terminus, resulting in a time complexity of $O(n)$. By maintaining a tail reference alongside the head, inserting an element at the end (`append`) is optimized to an $O(1)$ constant time operation.
 
