@@ -126,40 +126,48 @@ python3 problem3.py
 
 ### Problem 4: Ghostbusters
 
-Run the driver against any of the resource test scripts:
+Run the script against test input files using standard input redirection:
 
 ```bash
-python3 problem4_driver.py < problem4Resources/problem4_basic.txt
+python3 ghostbusters.py < problem4_res/ghostbusters_input_0.txt
 ```
 
 ```bash
-python3 problem4_driver.py < problem4Resources/problem4_duplicates.txt
+python3 ghostbusters.py < problem4_res/ghostbusters_input_1.txt
 ```
 
 ```bash
-python3 problem4_driver.py < problem4Resources/problem4_errors.txt
+python3 ghostbusters.py < problem4_res/ghostbusters_input_2.txt
 ```
 
 ```bash
-python3 problem4_driver.py < problem4Resources/problem4_example.txt
+python3 ghostbusters.py < problem4_res/ghostbusters_input_3.txt
 ```
 
 ```bash
-python3 problem4_driver.py < problem4Resources/problem4_mixed.txt
+python3 ghostbusters.py < problem4_res/ghostbusters_input_4.txt
 ```
 
 ```bash
-python3 problem4_driver.py < problem4Resources/problem4_numbers.txt
+python3 ghostbusters.py < problem4_res/ghostbusters_input_5.txt
 ```
 
 ```bash
-python3 problem4_driver.py < problem4Resources/problem4_positions.txt
+python3 ghostbusters.py < problem4_res/ghostbusters_input_6.txt
 ```
 
 ```bash
-python3 problem4_driver.py < problem4Resources/problem4_simple.txt
+python3 ghostbusters.py < problem4_res/ghostbusters_input_7.txt
 ```
 
 ```bash
-python3 problem4_driver.py < problem4Resources/problem4_statistics.txt
+python3 ghostbusters.py < problem4_res/ghostbusters_input_8.txt
+```
+
+```bash
+python3 ghostbusters.py < problem4_res/ghostbusters_input_9.txt
+```
+
+```bash
+python3 ghostbusters.py < problem4_res/ghostbusters_input_10.txt
 ```
