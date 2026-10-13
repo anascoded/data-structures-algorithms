@@ -1,6 +1,3 @@
-# Data Structures and Algorithms
-
-This repository contains my assignments and solutions for **CS527: Data Structures and Algorithms**.
 # Coding Assignment 3
 
 ## Introduction
