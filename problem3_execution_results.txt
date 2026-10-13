@@ -1,0 +1,14 @@
+(base) anas@Anas-MacBook-Pro-2 HW3 % python3 stack_reverse.py < problem3_res/stack_input.txt
+- Array Stack: 
+Before:  1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+After:   10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+
+- Singly Linked List Stack: 
+Before:  1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+After:   10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+
+- Doubly Linked List Stack: 
+Before:  1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+After:   10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+
+(base) anas@Anas-MacBook-Pro-2 HW3 % 
