@@ -23,7 +23,7 @@ The `SinglyLinkedList` class maintains `head`, `tail`, and `_size` properties to
 
 This algorithm uses recursion to evaluate pathways for reaching target step $n$ using step increments of 1, 2, or 3. The recursive helper `get_combinations(n, path)` branches into three sub-problems `n - 1`, `n - 2`, and `n - 3` appending the chosen step to the current path vector. The base cases return `[path]` when $n = 0$ or an empty list when $n < 0$ (an invalid overshoot).
 
-### Problem 4: Sorted Doubly Linked List
+### Problem 4: Ghostbusters
 
 The `SortedDoublyLinkedList` maintains elements in ascending order by performing linear insertions (`add`) that position new nodes immediately before the first node with a larger value. Recursive helper functions facilitate sequence traversals like `total()`, `count(value)`, and `exists(value)`. Because the list is ordered, searching and counting algorithms implement early stopping: recursion terminates as soon as a node value exceeds the query target ($node.value > value$). Methods (`median` and `sum_middle_three`) go directly to center indices that they get from list size calculation, and evaluate odd versus even structural offsets to compute central sums or medians.
 
