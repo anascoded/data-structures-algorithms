@@ -36,39 +36,87 @@ The `SortedDoublyLinkedList` maintains elements in ascending order by performing
 
 ## How to Run
 
-### Problem 2: Singly Linked List
+### Problem 1: Palindrome
 
-Run the driver against test input files using standard input redirection:
+Run the script against test input files using standard input redirection:
 
 ```bash
-python3 problem2_driver.py < problem2Resources/problem2_basic.txt
+python3 palindrome.py < problem1_res/palindrome_0.txt
 ```
 
 ```bash
-python3 problem2_driver.py < problem2Resources/problem2_create.txt
+python3 palindrome.py < problem1_res/palindrome_0L.txt
 ```
 
 ```bash
-python3 problem2_driver.py < problem2Resources/problem2_errors.txt
+python3 palindrome.py < problem1_res/palindrome_0S.txt
 ```
 
 ```bash
-python3 problem2_driver.py < problem2Resources/problem2_delete.txt
+python3 palindrome.py < problem1_res/palindrome_1.txt
 ```
 
 ```bash
-python3 problem2_driver.py < problem2Resources/problem2_update.txt
+python3 palindrome.py < problem1_res/palindrome_1L.txt
 ```
 
 ```bash
-python3 problem2_driver.py < problem2Resources/problem2_read.txt
+python3 palindrome.py < problem1_res/palindrome_1S.txt
 ```
 
 ```bash
-python3 problem2_driver.py < problem2Resources/problem2_update.txt
+python3 palindrome.py < problem1_res/palindrome_2.txt
 ```
 
-### Problem 3: Climbing Stairs
+```bash
+python3 palindrome.py < problem1_res/palindrome_2L.txt
+```
+
+```bash
+python3 palindrome.py < problem1_res/palindrome_2S.txt
+```
+
+```bash
+python3 palindrome.py < problem1_res/palindrome_3.txt
+```
+
+```bash
+python3 palindrome.py < problem1_res/palindrome_3L.txt
+```
+
+```bash
+python3 palindrome.py < problem1_res/palindrome_3S.txt
+```
+
+```bash
+python3 palindrome.py < problem1_res/palindrome_4.txt
+```
+
+```bash
+python3 palindrome.py < problem1_res/palindrome_4L.txt
+```
+
+```bash
+python3 palindrome.py < problem1_res/palindrome_4S.txt
+```
+
+### Problem 2: Substrings
+
+Run the script against test input files using standard input redirection:
+
+```bash
+python3 substrings.py < problem2_res/unique_substrings_input_0.txt
+```
+
+```bash
+python3 substrings.py < problem2_res/unique_substrings_input_1.txt
+```
+
+```bash
+python3 substrings.py < problem2_res/unique_substrings_input_2.txt
+```
+
+### Problem 3: Reverse Stack
 
 Execute the recursive combination script directly:
 
@@ -76,7 +124,7 @@ Execute the recursive combination script directly:
 python3 problem3.py
 ```
 
-### Problem 4: Sorted Doubly Linked List
+### Problem 4: Ghostbusters
 
 Run the driver against any of the resource test scripts:
 
