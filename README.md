@@ -10,27 +10,27 @@ This repository contains solutions for CS526 Homework Assignment 3.
 
 ### Problem 1: Palindrome
 
-A tail pointer maintains a direct reference to the final node in a linked list structure. In a standard singly linked list without a tail reference, appending a new node requires traversing all $n$ nodes from the head to reach the terminus, resulting in a time complexity of $O(n)$. By maintaining a tail reference alongside the head, inserting an element at the end (`append`) is optimized to an $O(1)$ constant time operation.
+The algorithm cleans the input string by removing single-space separators while preserving character case[cite: 7]. It then compares the cleaned string directly to its reverse using string slicing (`s[::-1]`). If both match, it returns `True` and increments the total palindrome count; otherwise, it returns `False` [cite: 7]. The program processes input line by line until all lines are evaluated[cite: 7].
 
 ### Problem 2: Substrings
 
-The `SinglyLinkedList` class maintains `head`, `tail`, and `_size` properties to manage node sequences efficiently. Insertion and deletion algorithms adjust pointers conditionally depending on whether operations target boundary nodes (head or tail) or internal positions. Operations, like `get(index)` and `update(index, value)`, iterate through node references up to the target index, if bounds are violated an `IndexError` is raised. The `delete(value)` method updates `tail` pointer dynamically whenever the last element is removed.
+The algorithm recursively generates all consecutive character runs without using loops[cite: 7]. A recursive helper expands the substring slice from a starting index to an ending index, storing each generated substring in a set to automatically eliminate duplicates[cite: 7]. Once the ending boundary reaches the string length, the start index increments to search the next character position. Finally, the set of unique substrings is sorted alphabetically and printed alongside the total count[cite: 7].
 
 ### Problem 3: Reverse Stack
 
-This algorithm uses recursion to evaluate pathways for reaching target step $n$ using step increments of 1, 2, or 3. The recursive helper `get_combinations(n, path)` branches into three sub-problems `n - 1`, `n - 2`, and `n - 3` appending the chosen step to the current path vector. The base cases return `[path]` when $n = 0$ or an empty list when $n < 0$ (an invalid overshoot).
+The algorithm reverses three stack implementations in-place using recursion without loops[cite: 7]. A main recursive function repeatedly pops the top element off the stack until it becomes empty, holding all values in the call stack. A recursive helper function, `insert_at_bottom`, then inserts each popped item at the base of the emptied stack. As the call stack unwinds, elements are pushed back in reverse order.
 
 ### Problem 4: Ghostbusters
 
-The `SortedDoublyLinkedList` maintains elements in ascending order by performing linear insertions (`add`) that position new nodes immediately before the first node with a larger value. Recursive helper functions facilitate sequence traversals like `total()`, `count(value)`, and `exists(value)`. Because the list is ordered, searching and counting algorithms implement early stopping: recursion terminates as soon as a node value exceeds the query target ($node.value > value$). Methods (`median` and `sum_middle_three`) go directly to center indices that they get from list size calculation, and evaluate odd versus even structural offsets to compute central sums or medians.
+The algorithm checks whether any streams cross by testing if all Ghostbuster-ghost directional vectors are parallel and non-collinear[cite: 7]. It uses integer 2D cross-products to determine if two line vectors share the exact same direction without floating-point precision loss. If two streams have different direction slopes or lie on the exact same line, they cross, and the algorithm outputs that ghosts were not eliminated[cite: 7]. All ghosts are eliminated only if every stream is strictly parallel and distinct[cite: 7].
 
 ---
 
 ## Interesting Aspects
 
-- **Early-Stopping Optimization in Sorted Lists:** In Problem 4, recursive search algorithms (`exists` and `count`) leverage the sorted invariant of the doubly linked list. Traversal stops immediately when `node.value > target`, avoiding full $O(n)$ list scans on missing or larger elements.
-- **Format-Preserving Numeric Parsers:** Both driver programs (`problem2_driver.py` and `problem4_driver.py`) handle mixed input types cleanly by attempting integer and float conversions before falling back to string processing, ensuring output strings retain exact formatting matches.
-- **Unified Boundary Management:** Node insertions and removals in both singly and doubly linked lists carefully handle single-element lists, ensuring `head` and `tail` references are correctly set to `None` when the list becomes empty.
+- **Zero-Tolerance Stream Collisions:** In Problem 4, collinear streams (two different Ghostbuster-ghost pairs firing along the exact same straight line) are treated as crossing, causing immediate failure[cite: 7]. This edge case requires checking not only if direction vectors are parallel, but also verifying that no two streams share a line origin via non-collinear point testing.
+- **Space-Preserving Palindrome Logic:** In Problem 1, space removal strips single space separators without altering character case[cite: 7]. This allows strings with spaced characters (e.g., `"g e e k"`) to be evaluated cleanly against strict case-sensitive palindrome rules[cite: 7].
+- **In-Place Call-Stack Reversal:** In Problem 3, stack reversal operates strictly in-place without instantiating secondary data structures[cite: 7]. By leveraging the execution call stack through double recursion (`reverse_stack` and `insert_at_bottom`), elements are unwound and placed at the base, reversing array-based, singly linked, and doubly linked stacks seamlessly without loops[cite: 7].
 
 ---
 
