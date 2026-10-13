@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains solutions for CS526 Homework Assignment 3. The assignment explores string processing algorithms, recursive sequence and substring generation, data structure reversals, and computational geometry applications. The provided Python modules implement a case-sensitive, space-insensitive palindrome checker, a recursive unique substring generator using set-based deduplication, an in-place recursive stack reversal algorithm supporting array-based, singly linked, and doubly linked stack implementations, and an exact integer cross-product stream intersection solver for the Ghostbusters elimination problem.
+This repository contains solutions for CS526 Homework Assignment 3. The assignment explores string processing algorithms, recursive sequence and substring generation, data structure reversals, and computational geometry applications. The provided Python modules implement a case-sensitive, space-insensitive palindrome checker, a recursive unique substring generator using set-based deduplication, a recursive stack reversal algorithm supporting array-based, singly linked, and doubly linked stack implementations, and an exact integer cross-product stream intersection solver for the Ghostbusters elimination problem.
 
 ---
 
