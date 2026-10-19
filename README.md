@@ -61,7 +61,7 @@ python3 rightTriangles.py < Angles_Resources/rightangles_1.txt
 ```
 
 ```bash
-python3 rightTriangles.py < Angles_Resources/rightangles_2.txt```
+python3 rightTriangles.py < Angles_Resources/rightangles_2.txt
 ```
 
 ```bash
