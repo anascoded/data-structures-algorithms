@@ -1,43 +1,68 @@
-#  Data Structures and Algorithms
+# Coding Assignment 4
 
-This repository contains my assignments and solutions for **CS527: Data Structures and Algorithms**.
+## Introduction
 
-## Repository Structure
+This repository contains solutions for CS526 Homework Assignment 3. The assignment explores string processing algorithms, recursive sequence and substring generation, data structure reversals, and computational geometry applications. The provided Python modules implement a case-sensitive, space-insensitive palindrome checker, a recursive unique substring generator using set-based deduplication, a recursive stack reversal algorithm supporting array-based, singly linked, and doubly linked stack implementations, and an exact integer cross-product stream intersection solver for the Ghostbusters elimination problem.
 
-Each assignment is organized in its own Git branch. The `main` branch contains the general repository information, while each assignment branch contains the corresponding assignment solution.
+---
 
-| Branch         | Description  |
-| -------------- | ------------ |
-| `assignment-1` | Assignment 1 |
-| `assignment-2` | Assignment 2 |
-| `assignment-3` | Assignment 3 |
-| `assignment-4` | Assignment 4 |
-| `assignment-5` | Assignment 5 |
-| `assignment-6` | Assignment 6 |
-| `assignment-7` | Assignment 7 |
+## Algorithm
 
-> The branch list will be updated as new assignments are completed.
+### Problem 1: A
 
-## Course Information
+The algorithm cleans the input string by removing single-space separators while preserving character case. It then compares the cleaned string directly to its reverse using string slicing (`s[::-1]`). If both match, it returns `True` and increments the total palindrome count; otherwise, it returns `False`. The program processes input line by line until all lines are evaluated.
 
-* **Course:** CS527 – Data Structures and Algorithms
-* **Program:** M.S. in Software Development
-* **University:** Boston University
+### Problem 1: B
 
-## Assignments
+The algorithm recursively generates all consecutive character runs without using loops. A recursive helper expands the substring slice from a starting index to an ending index, storing each generated substring in a set to automatically eliminate duplicates. Once the ending boundary reaches the string length, the start index increments to search the next character position. Finally, the set of unique substrings is sorted alphabetically and printed alongside the total count.
 
-To view the solution for a specific assignment, switch to the corresponding branch:
+### Problem 2: Smallest Number
+
+The algorithm reverses three stack implementations in-place using recursion without loops. A main recursive function repeatedly pops the top element off the stack until it becomes empty, holding all values in the call stack. A recursive helper function, `insert_at_bottom`, then inserts each popped item at the base of the emptied stack. As the call stack unwinds, elements are pushed back in reverse order.
+
+### Problem 3: Right Triangles
+
+The algorithm checks whether any streams cross by testing if all Ghostbuster-ghost directional vectors are parallel and non-collinear. It uses integer 2D cross-products to determine if two line vectors share the exact same direction without floating-point precision loss. If two streams have different direction slopes or lie on the exact same line, they cross, and the algorithm outputs that ghosts were not eliminated. All ghosts are eliminated only if every stream is strictly parallel and distinct.
+
+---
+
+## Interesting Aspects
+
+- **Zero-Tolerance Stream Collisions:** In Problem 4, collinear streams (two different Ghostbuster-ghost pairs firing along the exact same straight line) are treated as crossing, causing immediate failure. This edge case requires checking not only if direction vectors are parallel, but also verifying that no two streams share a line origin via non-collinear point testing.
+- **Space-Preserving Palindrome Logic:** In Problem 1, space removal strips single space separators without altering character case. This allows strings with spaced characters to be evaluated cleanly against strict case-sensitive palindrome rules.
+- **In-Place Call-Stack Reversal:** In Problem 3, stack reversal operates strictly in-place without instantiating secondary data structures. By leveraging the execution call stack through double recursion (`reverse_stack` and `insert_at_bottom`), elements are unwound and placed at the base, reversing array-based, singly linked, and doubly linked stacks seamlessly without loops.
+
+---
+
+## How to Run
+
+### Problem 2: Smallest Number
+
+Run the script against test input files using standard input redirection:
 
 ```bash
-git switch assignment-1
+python3 smallestNumber.py < Fewest_Resources/fewest_1.txt
 ```
 
-Replace `assignment-1` with the branch for the assignment you want to view.
+```bash
+python3 smallestNumber.py < Fewest_Resources/fewest_2.txt
+```
 
-## Technologies
+```bash
+python3 smallestNumber.py < Fewest_Resources/fewest_3.txt
+```
 
-All assignments use **Python** as the main programming languages and tools depending on each assignment's requirements.
+### Problem 3: Right Triangles
 
-## Disclaimer
+Run the script against test input files using standard input redirection:
 
-These solutions are provided for educational and reference purposes.
+```bash
+python3 rightTriangles.py < Angles_Resources/rightangles_1.txt
+```
+
+```bash
+python3 rightTriangles.py < Angles_Resources/rightangles_2.txt```
+
+```bash
+python3 rightTriangles.py < Angles_Resources/rightangles_3.txt
+```
