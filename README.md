@@ -10,7 +10,7 @@ Each assignment is organized in its own Git branch. The `main` branch contains t
 | ------ | ----------- |
 | [`assignment-1`](https://github.com/anascoded/data-structures-algorithms/tree/assignment-1) | Assignment 1 |
 | [`assignment-2`](https://github.com/anascoded/data-structures-algorithms/tree/assignment-2) | Assignment 2 |
-| [`assignment-3`](https://github.com/anascoded/data-structures-algorithms/tree/assignment-3) | Palindrom, Substrings, Stack Reverse, Ghostbusters |
+| [`assignment-3`](https://github.com/anascoded/data-structures-algorithms/tree/assignment-3) | Palindrome, Substrings, Stack Reverse, Ghostbusters |
 | [`assignment-4`](https://github.com/anascoded/data-structures-algorithms/tree/assignment-4) | Assignment 4 |
 | [`assignment-5`](https://github.com/anascoded/data-structures-algorithms/tree/assignment-5) | Assignment 5 |
 | `assignment-6` | Assignment 6 |
