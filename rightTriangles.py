@@ -9,11 +9,11 @@ from collections import Counter
 
 # Function to normalize direction vectors and count right triangles formed by given points
 def canonical_dir(dx, dy):
-    """Normalize direction vector to its reduced primitive form."""
+    """Normalize the direction vector to its reduced primitive form."""
     g = math.gcd(dx, dy)
     dx //= g
     dy //= g
-    return (dx, dy)
+    return dx, dy
 
 # Function to count the number of right triangles formed by a set of points
 def count_right_triangles(points):
@@ -25,6 +25,7 @@ def count_right_triangles(points):
         x1, y1 = points[i]
         angle_counts = Counter()
 
+        # Iterate through each other point to form vectors
         for j in range(n):
             if i == j:
                 continue
@@ -37,7 +38,7 @@ def count_right_triangles(points):
 
         # Check for perpendicular vectors (90-degree rotated rays)
         for (dx, dy), count in angle_counts.items():
-            # A 90 degree counter-clockwise rotation of (dx, dy) is (-dy, dx)
+            # A 90-degree counter-clockwise rotation of (dx, dy) is (-dy, dx)
             perp_dir = canonical_dir(-dy, dx)
             if perp_dir in angle_counts:
                 total_right_triangles += count * angle_counts[perp_dir]
@@ -50,6 +51,7 @@ def main():
     if not lines:
         return
 
+    # Remove empty lines and whitespace
     lines = [line.strip() for line in lines if line.strip()]
     if not lines:
         return

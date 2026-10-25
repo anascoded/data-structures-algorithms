@@ -28,11 +28,14 @@ def main():
         running_sum += num
         count += 1
         if running_sum > target:
-            break
+           break
+    # Array and target output for verification
+    print("Input: ")
+    elements_per_line = 24 # Print array elements in groups of 24
+    for i in range(0, len(array), elements_per_line):
+        print(",".join(map(str, array[i:i + elements_per_line])))
 
-    # Array output
-    array_str = ",".join(map(str, array))
-    print(f"Input: {array_str} Target: {target} Answer: {count}")
+    print(f"Target: {target} Answer: {count}")
 
 # Entry point for the script
 if __name__ == "__main__":
