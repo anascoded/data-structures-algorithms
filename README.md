@@ -41,7 +41,7 @@ The algorithm computes the total number of right triangles in $O(n^2)$ time by e
 ## Interesting Aspects
 
 - **Greedy Optimality Guarantee:** In Problem 2, picking the largest available elements first strictly minimizes the number of elements required to exceed target $T$, reducing what could be a complex subset-sum problem down to an efficient $O(n \log n)$ sort.
-- **$O(n^2)$ Perpendicular Vector Matching:** In Problem 3, counting perpendicular direction vectors around each anchor point reduces the search complexity from an $O(n^3)$ triplet check to an $O(n^2)$ frequency lookup, processing 1,000 points in under 0.35 seconds.
+- **$O(n^2)$ Perpendicular Vector Matching:** In Problem 3, counting perpendicular direction vectors around each anchor point reduces the search complexity from an $O(n^3)$ triplet check to an $O(n^2)$ frequency lookup, processing 1,000 points in under 0.76 seconds (tested with the command `time`).
 - **Exact Vector Normalization:** Problem 3 avoids floating-point division errors when calculating slopes by reducing direction vectors using `math.gcd(dx, dy)`, ensuring precise $90^\circ$ orientation matching without precision loss.
 
 ---
