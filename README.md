@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains solutions for CS526 Homework Assignment 4. The assignment explores tree traversal algorithms, greedy optimization strategies, and 2D computational geometry vector techniques. The provided Python implementations perform preorder, breadth-first, postorder, and in-order traversals on general and binary trees, determine the minimum subset of array elements whose sum exceeds a target value using a greedy approach, and compute the number of unique right-angled triangles formed by a set of 2D coordinates using exact vector slope and $90^\circ$ direction analysis.
+This repository contains solutions for CS526 Homework Assignment 4. The assignment explores tree traversal algorithms, greedy optimization strategies, and geometry vector techniques. The provided implementations explain preorder, breadth-first, postorder, and in-order traversals on general and binary trees, determine the minimum subset of array elements whose sum exceeds a target value using a greedy approach, and compute the number of unique right-angled triangles formed by a set of 2D coordinates using exact vector slope and $90^\circ$ direction analysis.
 
 ---
 
