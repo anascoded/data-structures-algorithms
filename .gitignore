@@ -1,0 +1,6 @@
+# Ignore all parent directory files relative to Git root
+../*
+
+# Exceptions for this repository structure (if needed)
+!/CS527/
+!/CS527/**
