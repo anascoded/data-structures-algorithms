@@ -83,5 +83,3 @@ python3 puzzle_game.py < input_files/puzzle_game_input3.txt
 ```bash
 python3 puzzle_game.py < input_files/puzzle_game_input4.txt
 ```
-
-Revise the introduction and the section about interesting aspects. 
