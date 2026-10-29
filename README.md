@@ -21,9 +21,10 @@ Each assignment is organized in its own Git branch. The `main` branch contains t
 
 ## Course Information
 
-* **Course:** CS527 – Data Structures and Algorithms
+* **Course:** CS526 – Data Structures and Algorithms
 * **Program:** M.S. in Software Development
 * **University:** Boston University
+* **Term:** Fall 2026
 
 ## Assignments
 
@@ -37,7 +38,7 @@ Replace `assignment-1` with the branch for the assignment you want to view.
 
 ## Technologies
 
-All assignments use **Python** as the main programming languages and tools depending on each assignment's requirements.
+All assignments use **Python** as the main programming language, with tools depending on each assignment's requirements.
 
 ## Disclaimer
 
