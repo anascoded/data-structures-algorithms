@@ -8,14 +8,14 @@ Each assignment is organized in its own Git branch. The `main` branch contains t
 
 | Branch | Description |
 | ------ | ----------- |
-| [`assignment-1`](https://github.com/anascoded/data-structures-algorithms/tree/assignment-1) | Assignment 1 |
-| [`assignment-2`](https://github.com/anascoded/data-structures-algorithms/tree/assignment-2) | Assignment 2 |
+| [`assignment-1`](https://github.com/anascoded/data-structures-algorithms/tree/assignment-1) | Inroduction |
+| [`assignment-2`](https://github.com/anascoded/data-structures-algorithms/tree/assignment-2) | Tail Pointer Advantage, Singly Linked List, Climbing Stairs, Sorted Doubly Linked List |
 | [`assignment-3`](https://github.com/anascoded/data-structures-algorithms/tree/assignment-3) | Palindrome, Substrings, Stack Reverse, Ghostbusters |
-| [`assignment-4`](https://github.com/anascoded/data-structures-algorithms/tree/assignment-4) | Assignment 4 |
-| [`midterm`](https://github.com/anascoded/data-structures-algorithms/tree/midterm) | Mid-Term |
-| [`assignment-5`](https://github.com/anascoded/data-structures-algorithms/tree/assignment-5) | Assignment 5 |
-| `assignment-6` | Assignment 6 |
-| `assignment-7` | Assignment 7 |
+| [`assignment-4`](https://github.com/anascoded/data-structures-algorithms/tree/assignment-4) | Tree Traversal, Smallest Number, Right Triangles |
+| [`midterm`](https://github.com/anascoded/data-structures-algorithms/tree/midterm) | Snowfall, Pandemic, Symbol Puzzle Game |
+| [`assignment-5`](https://github.com/anascoded/data-structures-algorithms/tree/assignment-5) | TBD |
+| `assignment-6` | TBD|
+| `assignment-7` | TBD|
 
 > The branch list will be updated as new assignments are completed.
 
