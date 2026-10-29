@@ -2,7 +2,8 @@
 
 ## Introduction
 
-This repository contains solutions for the CS526 Midterm Examination. The exam evaluates array prefix analysis, multi-dimensional grid simulations, and matrix-based constraint validation algorithms. The provided Python implementations determine whether any three-day window exceeds half the cumulative seasonal total in a snowfall sequence using prefix differences, simulate daily cellular contagion spread across an $N \times N$ grid until termination, and validate $n \times n$ symbol puzzle boards for row, column, sub-board, and symbol set compliance in $O(n^2)$ time.
+This repository contains solutions for the CS526 Midterm. The exam evaluates array prefix analysis, multi-dimensional grid simulations, and matrix-based constraint validation algorithms. The provided Python implementations determine whether any three-day window exceeds half the cumulative seasonal total in a snowfall sequence using prefix differences, simulate daily cellular contagion spread across an $N \times N$ grid until termination, and validate $n \times n$ symbol puzzle boards for row, column, sub-board, and symbol set compliance in $O(n^2)$ time.
+
 ---
 
 ## Algorithm
