@@ -14,8 +14,9 @@ Each assignment is organized in its own Git branch. The `main` branch contains t
 | [`assignment-4`](https://github.com/anascoded/data-structures-algorithms/tree/assignment-4) | Tree Traversal, Smallest Number, Right Triangles |
 | [`midterm`](https://github.com/anascoded/data-structures-algorithms/tree/midterm) | Snowfall, Pandemic, Symbol Puzzle Game |
 | [`assignment-5`](https://github.com/anascoded/data-structures-algorithms/tree/assignment-5) | TBD |
-| `assignment-6` | TBD|
+| [`assignment-6`] (https://github.com/anascoded/data-structures-algorithms/tree/assignment-6)| TBD |
 | `assignment-7` | TBD|
+| `final` | TBD|
 
 > The branch list will be updated as new assignments are completed.
 
