@@ -72,10 +72,6 @@ python3 merge_sort.py < problem1_res/merge_input3.txt
 ```
 
 ```bash
-python3 merge_sort.py < problem1_res/merge_input4.txt
-```
-
-```bash
 python3 merge_sort.py < problem1_res/merge_input5.txt
 ```
 
